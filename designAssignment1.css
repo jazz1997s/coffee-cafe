@@ -1,0 +1,336 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family:  sans-serif;
+			background-color:#FFFFFF;}
+		
+#Shop, #AboutUs, #Learn, #Coffee, #SignUp
+{
+	border-top: 3px solid #C9C9C9;
+	padding-top:50px;
+	}
+
+.homeLogo img
+{	
+	position: static;
+	height:60px;
+	width:80px;
+	margin-left: 20px;
+}
+
+ul li
+{
+	display: inline;
+	position: relative;
+    bottom: 60px;
+    left: 70px;
+	margin-left: 50px;
+	font-size: 1.8vw;
+	font-weight: bold;
+	color: #000000;
+}
+
+
+.introText a:link {color: blue;}
+.introText a:hover {color: red;
+					background-color: yellow;}
+
+.connect {
+	
+	position: static;
+	float: right;
+	clear: right;
+	padding-top: 50px;
+	padding-right: 105px;
+	
+}
+
+ul li:hover {
+
+	color:red;	
+}
+
+.navigation a {
+	text-decoration:none;
+	
+}
+
+.introImage img
+{ 
+	max-width:100%;
+   	height:auto;
+   	max-height:100%;
+	margin-top:10px;
+}
+
+.Coffeetype img
+{ 
+	max-width:100%;
+   	height:auto;
+   	max-height:100%;
+	margin-top:10px;
+}
+
+
+#less{display: none;}
+
+#my-text {
+    float: right;
+    margin-right:-90px;
+}
+
+
+.left
+{
+	margin-left:600px;
+	float:right;
+}
+
+.introText
+{ 
+	font-family: Tahoma;
+	text-align: justify;
+}
+
+.blue
+{
+	color:#0200FF;	
+}
+
+.copyrights
+{
+	clear:both;
+	font-size: 80%;
+	font-style:italic;
+   	position: static;
+	text-align:center;
+
+}
+
+.Shopinterior img
+{
+	float:left;
+	width: 55%;
+	height: 55%;
+	clear: left;
+	padding-bottom: 20px;
+}
+
+#divisionOne a { 
+	text-decoration: none;
+	font-size: 2.2vh;
+	color: #FF0000;
+}
+
+#divisionOne a:hover
+{
+	color: #8D19A7;
+}
+
+#wrapper {
+	overflow: hidden;
+	border: 3px solid #000000;
+}
+#divisionTwo
+{	
+	display: inline-block;
+	position: static;
+	text-align: justify;
+	font-size:2vh;
+    text-justify: inter-word;	
+	width:230px;
+	float:right;
+	padding-top: 20px;
+	padding-right: 50px;
+}
+
+
+#divisionOne {
+	display: inline-block;
+	float: right;
+	font-size: 2vh;
+	margin-top: -5px;
+	position: static;
+	padding-top: 20px;
+	
+}
+
+#divisionTwo a
+{
+	text-decoration:none;
+	
+}
+#divisionTwo a:hover
+{
+	color: #00FFDB;
+}
+
+footer
+{
+    box-shadow: 1px -5px 5px #C7C7C7;
+    width: 100%;
+    height: 185px;
+	overflow:hidden;
+	bottom:0px;
+}
+
+search
+{
+	margin: 20px 20px;
+}
+
+nav {
+      	border-bottom: 3px dotted #000000;
+	  	background-color: #D5D5D5;
+		opacity: 0.9;
+		position: fixed;
+		margin-top: -10px;
+		height: 15vh;
+    	width: 100vw;
+    	z-index: 100;
+  
+}
+
+.introImage {
+	max-width: 100%;
+	max-height: 100%;
+    margin: auto;
+}
+	
+.connectLogo {
+    float: right;
+	overflow: auto;
+	clear: right;;
+}
+
+.operationHour {
+	float:left;
+	clear: both;
+}
+
+.container
+{
+	position: static;
+	margin-top: 10px;
+	clear: both;
+	font-size:2vh;
+}
+
+.form1 {
+	position: static;
+	font-size:2vh;
+}
+
+#wrapper2 {
+	overflow: hidden;
+	border: 3px solid #000000;
+}
+#mail
+ {
+	display: inline-block;
+	font-size: 2.2vh;
+	position: static;
+	clear: both;
+	overflow:hidden;
+}
+#map {
+	position: static;
+	display: inline-block;
+	float:right;
+	clear: both;
+	overflow:hidden;
+}
+
+.fotorama
+{
+	width:50vw;
+	margin: 0px auto;
+	padding-top: 150px;
+}
+
+.learning h1 {font-family:Coffee With Sugar;
+	     color:brown;
+		 margin: 5px;
+		 text-align:center, justify;}
+		 
+.learning h4 {font-family:Coffee At Midnight Demo;
+	     margin-top: 5px;
+		 text-align:center;
+		 color:brown;
+	    }	
+		 
+.learning p  {   
+	     font-family:Verdana;
+		 text-align:center;
+	    }
+		
+.coffeetypeThumb:hover {
+  -webkit-transform:scale(1.2); 
+          transform:scale(1.2);
+}
+
+.coffeeType {
+height: 100%;
+width: 100%;
+min-height: 100%;
+max-height: 100%;
+min-width: 100%;
+max-width: 100%;
+}
+
+.coffeetypeThumb  {
+	position:static;
+	resize: both;
+	-webkit-transition: all 0.7s ease; 
+    transition: all 0.7s ease;
+	float: right;
+	height:120px;
+	width:200px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.coffeeType p
+{
+	font-size:2.5vh;
+	border-bottom: 3px solid #C9C9C9;
+}
+
+.imagedropshadow {
+
+	display: inline;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	padding-right: 4px;
+	-webkit-transition: all .6s ease-in;
+}
+
+.imagedropshadow a:hover {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 1px #999;
+    box-shadow: 1px 1px 5px #999;
+	padding-top: 28px;
+	padding-right:5px;
+}
+
+
+.connectLogo img
+{
+
+	height:40px;
+	width:40px;
+	border: 2px;
+	margin-left: 5px;
+	margin-top: 5px; 
+	
+}
+
+#body {
+height: 100%;
+width: 100%;
+min-height:100%;
+max-height:100%;
+min-width:100%;
+max-width:100;
+}
